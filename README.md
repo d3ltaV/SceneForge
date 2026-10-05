@@ -38,7 +38,7 @@ Four seeds, 1M timesteps each on `driver.scenic`.
 | Mean Difficulty | 10.8 ± 0.8 | **11.6 ± 1.2** | 11.1 ± 1.5 |
 | Crash Vehicle % | 60.9 | 58.3 | **21.2** |
 
-Baseline is random scene sampling. ACL is the ablation (one of the two ingredients missing). N×K Buffer is the full method, giving ~65% drop in collision rate against both references, episodes that last ~3.3× longer, and mean reward up 70%.
+Baseline is random scene sampling. ACL is the ablation. N×K Buffer is the full method, giving ~65% drop in collision rate against both references, episodes that last ~3.3× longer, and mean reward up 70%.
 
 ## Setup
 
